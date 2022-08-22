@@ -11,4 +11,8 @@ h1 {
     height: 450px;
 }
 
+.container{
+    border: 10px solid gray;
+    height: 90vh;
+}
 
