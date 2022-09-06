@@ -10,11 +10,11 @@
     <h1>Test JS Quiz</h1>
     <label>How many oscars did Leo win?</label><br>
     <input type= "number" id="n_of_oscars"><br><br>
-    <button onclick="tot_oscars">submit</button>
+    <button onclick="tot_oscars(document.getElementById('n_of_oscars'))">submit</button>
 
     <script>
-        function tot_oscars(){
-
+        function tot_oscars(n){
+           document.write("Your answer is" + n.value) 
         }
     </script>
 </body>
