@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+</head> 
 <body>
     <h1>Test JS Quiz</h1>
     <label>How many oscars did Leo win?</label><br>
@@ -14,7 +14,11 @@
 
     <script>
         function tot_oscars(n){
-           document.write("Your answer is" + n.value) 
+            if (n == 1){
+              document.write("Your answer is" + n.value) 
+            } else {
+              document.write("Not quite the right answer... try again!")
+            }
         }
     </script>
 </body>
