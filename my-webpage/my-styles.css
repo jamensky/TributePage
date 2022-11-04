@@ -11,11 +11,12 @@ header {
 }
 
 body {
-    background-color: #1a5dba;
+    background-color: #2e0ecb;
 }
 
 h1 {
-    color: rgb(204, 150, 12);
+    color: rgb(242, 188, 52);
+    font-size: 2em;
 }
 
 .synopsis{
